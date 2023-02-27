@@ -4108,7 +4108,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
-	background-color: #f5f5f5;
+	background-color: #ffffff;
 	color: #909498;
 	cursor: default;
 	position: relative;
@@ -4459,6 +4459,10 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 #footer h3,
 #footer p {
 	font-size: 0.8rem;
+}
+
+#footer h3 {
+	font-size: 1rem;
 }
 
 @media screen and (max-width: 980px) {
